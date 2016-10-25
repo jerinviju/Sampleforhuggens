@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sampleforhuggens</string>
+    <string-array name="navigation_drawer_items_array">
+        <item>Connect</item>
+        <item>Fixtures</item>
+        <item>Table</item>
+    </string-array>
+    <string name="facebook_app_id">1461695090512588</string>
+
+</resources>

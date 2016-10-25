@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1012927477930",
+    "project_id": "samplehuggen"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012927477930:android:4a551bf85306bad6",
+        "android_client_info": {
+          "package_name": "com.example.excel16.sampleforhuggens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012927477930-49vj537blsb1tt9vsvd8ittkucpttb9b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.excel16.sampleforhuggens",
+            "certificate_hash": "835C77799F432EF0C5AD2D382F87EC35D491F775"
+          }
+        },
+        {
+          "client_id": "1012927477930-s3uk1h29hq85rju8cvq7jmfjkrgp27hc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4kR7CZ76w0gOyzsMCEMeZya0Jh1lB3-o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

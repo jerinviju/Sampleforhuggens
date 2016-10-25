@@ -1,0 +1,112 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/container_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent" >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="April 29"
+                android:id="@+id/date"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="DELHI"
+                android:layout_below="@+id/date"
+                android:layout_marginTop="5dp"
+                android:id="@+id/city"
+                android:layout_centerHorizontal="true"
+                android:textSize="40dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/city"
+                android:id="@+id/imagecloud"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imagecloud"
+                android:text="dsdjsdv"
+                android:id="@+id/cool"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="25"
+                android:layout_below="@+id/cool"
+                android:layout_marginTop="5dp"
+                android:id="@+id/temp"
+                android:layout_centerHorizontal="true"
+                android:textSize="40dp"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@+id/temp"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:id="@+id/maxtemp"
+        android:layout_centerVertical="true"
+        android:text="Max Temp: "
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/mintemp"
+        android:text="Min Temp: "
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>
+
+            </RelativeLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#f42292"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+</android.support.v4.widget.DrawerLayout>
